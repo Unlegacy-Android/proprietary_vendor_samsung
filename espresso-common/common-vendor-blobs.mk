@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     $(VENDOR_FOLDER)/proprietary/system/bin/gpsd:system/bin/gpsd \
-    $(VENDOR_FOLDER)/proprietary/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so
+    $(VENDOR_FOLDER)/proprietary/system/lib/hw/gps.exynos5.so:system/lib/hw/gps.omap4.so
 
 # Ducati
 PRODUCT_COPY_FILES += \
